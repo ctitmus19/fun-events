@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "last_name": "Button",
+      "first_name": "Benjamin",
+      "email": "b.button@example.com",
+      "id": 1
+    },
+    {
+      "last_name": "Jones",
+      "first_name": "Coraline",
+      "email": "c.jones@example.com",
+      "id": 2
+    },
+    {
+      "last_name": "Parker",
+      "first_name": "Peter",
+      "email": "p.parker@example.com",
+      "id": 3
+    },
+    {
+      "last_name": "Skellington",
+      "first_name": "Sally",
+      "email": "s.skellington@example.com",
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "user_id": 1,
+      "name": "Albuquerque Film Festival",
+      "url": "https://abq-film/festival",
+      "description": "Watch independent films submitted by people around the globe!",
+      "start_date": "2025-02-22",
+      "end_date": "2025-02-23",
+      "address": "3701 Scenic St",
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "country": "United States",
+      "price": 30,
+      "id": 1
+    },
+    {
+      "user_id": 2,
+      "name": "Dahlia Society Showcase",
+      "url": "https://dahlia-society/showcase",
+      "description": "Admire dahlias grown by members of the Vancouver Dahlia Society!",
+      "start_date": "2025-03-29T13:00",
+      "end_date": "2025-03-29T15:00",
+      "address": "1600 Floral Rd",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "country": "Canada",
+      "price": 0,
+      "id": 2
+    },
+    {
+      "user_id": 3,
+      "name": "Spider-Man Concert",
+      "url": "https://seattlesymphony.org/events/spider-man",
+      "description": "Listen to the Seattle Symphony perform soundtracks from the iconic spider-man films!",
+      "start_date": "2025-03-30T19:00",
+      "end_date": "2025-03-30T21:00",
+      "address": "200 University St",
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "price": 70,
+      "id": 3
+    },
+    {
+      "user_id": 4,
+      "name": "Halloween Party",
+      "url": "https://seattle.gov/events/halloween-party",
+      "description": "Celebrate spooky season!",
+      "start_date": "2025-10-31T17:00",
+      "end_date": "2025-10-31T20:00",
+      "address": "1031 Hallow Ave",
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "price": 5,
+      "id": 4
+    }
+  ]
+}
