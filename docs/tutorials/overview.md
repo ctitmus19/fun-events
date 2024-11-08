@@ -13,14 +13,18 @@ This guide walks you through the required software downloads and helps you set u
 ## Tutorials
 
 **Events**
- - [Add event](tutorials/add-event.md)
- - [Update event](tutorials/update-event.md)
- - [Delete event](tutorials/delete-event.md)
+ - [Add event](add-event.md)
+ - [Update event](update-event.md)
+ - [Delete event](delete-event.md)
 
 **Users**
- - [Add user](tutorials/add-user.md)
- - [Update user](tutorials/update-user.md)
- - [Delete user](tutorials/delete-user.md)
+ - [Add user](add-user.md)
+ - [Update user](update-user.md)
+ - [Delete user](delete-user.md)
+
+## Resources
+- [event](api/event.md)
+- [user](api/user.md)
 
 ## Contact
 
