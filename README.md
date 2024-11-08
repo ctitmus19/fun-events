@@ -1,2 +1,2 @@
 # fun-events
-The main repo for the Fun Events API (SME: Sophie Yang / TW: Cody Titmus)
+[View the Fun Events Service API docs](https://ctitmus19.github.io/fun-events/)
