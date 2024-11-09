@@ -15,7 +15,7 @@ This guide walks you through the required software downloads and helps you set u
 The following tutorials walk you through all of the actions you can take using the Fun Events API.
 
 **Events**
- - [Add event](add-event.md)
+ - [Add event](docs/add-event.md)
  - [Get events](get-events.md)
  - [Get event by ID](get-event-by-id.md)
  - [Get event by location](get-event-by-location.md)
