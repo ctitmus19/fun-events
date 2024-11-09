@@ -31,9 +31,12 @@ The following tutorials walk you through all of the actions you can take using t
 
 ## Resources
 The Fun Events Service API relies on two main resources: `event` and `user`. Learn more about these resources by using the following resources:
+
 - [event](api/event.md)
 - [user](api/user.md)
 
 ## Contact
 
+
 If you have questions about the **Fun Event API Service** documentation, reach out to `codytitmus@gmail.com.`
+
