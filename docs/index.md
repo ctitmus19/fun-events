@@ -30,7 +30,7 @@ The following tutorials walk you through all of the actions you can take using t
  - [Delete user](tutorials/delete-user.md)
 
 ## Resources
-The Fun Events Service API relies on two main resources: `event` and `user`. Learn more about these resources by using the following resources:
+The Fun Events Service API relies on two main resources: `event` and `user`. Learn more about these resources by viewing the following articles:
 
 - [event](api/event.md)
 - [user](api/user.md)
