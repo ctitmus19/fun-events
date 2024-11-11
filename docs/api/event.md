@@ -13,7 +13,7 @@ Base endpoint:
 
 Contains information about events added to the service.
 
-To advertise and event in the service, the user must be added to
+To advertise an event in the service, the user must be added to
 the service first. Learn more about the [user resource](user.md).
 
 ## Resource properties
