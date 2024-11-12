@@ -4,10 +4,13 @@ layout: page
 
 # Get events by date range
 Using the Fun Events Service API, you can retrieve a list of any events within a specific date range.
-Use the steps in this article to complete the task.
+Use the steps in this tutorial to complete the task.
+
+Before beginning the tutorial, make sure to [test your development system](getting-started.md).
 
 **Time to complete:** 5 minutes
 
+---
 ## Get events in Postman
 
 Open the Postman app on your desktop and complete the following steps:
@@ -18,7 +21,7 @@ Open the Postman app on your desktop and complete the following steps:
 - **Headers:**
   - Content-Type: application/json
 
-2. Add the following information to the end of the request URL:
+2. Add the following information to the end of the request URL ({base_url}/events):
 ```shell
 ?start_date_gte=YYYY-MM-DD&end_date_lte=YYYY-MM-DD
 ```
