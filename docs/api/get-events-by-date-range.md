@@ -6,7 +6,7 @@ layout: page
 Using the Fun Events Service API, you can retrieve a list of any events within a specific date range.
 Use the steps in this tutorial to complete the task.
 
-Before beginning the tutorial, make sure to [test your development system](getting-started.md).
+Before beginning the tutorial, make sure to [test your development system](tutorials/getting-started.md).
 
 **Time to complete:** 5 minutes
 
