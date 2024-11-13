@@ -12,7 +12,7 @@ Time for completion: About 20 minutes
 ## Download required tools
 
 To utilize the **Fun Events Service API**, you need the following tools:
-**Note:** You may want to open the links in separate broswer tabs.
+**Note:** You may want to open the links in separate browser tabs.
 
 * A [GitHub account](https://github.com)
 * A development system (PC, Mac, or Linux) running a current or
@@ -30,7 +30,7 @@ long-term support (LTS version of the operating system).
 
 Complete the following steps to test your development system:
 
-1. Create and checkout a test branch of your fork of the To-Do-service repo. Your `GitHub repo workspace` is the directory that contains your fork of the `fun-events` repo.
+1. Create and checkout a test branch of your fork of the Fun Events Service repo. Your `GitHub repo workspace` is the directory that contains your fork of the `fun-events` repo.
 
     ```shell
     cd <your GitHub repo workspace>
