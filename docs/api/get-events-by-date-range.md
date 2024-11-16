@@ -8,7 +8,7 @@ Use the steps in this tutorial to complete the task.
 
 Before beginning the tutorial, make sure to [test your development system](../tutorials/getting-started.md).
 
-**Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`
+**Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
 **Time to complete:** 5 minutes
 
