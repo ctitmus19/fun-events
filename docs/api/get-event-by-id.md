@@ -7,7 +7,7 @@ You can use cURL commands or Postman to retrieve information about an event if y
 
 Before beginning the tutorial, make sure to [test your development system](../tutorials/getting-started.md).
 
-**Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`
+**Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
 **Time to complete:** 5 minutes
 
