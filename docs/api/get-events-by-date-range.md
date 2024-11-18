@@ -112,3 +112,8 @@ March 21 and March 31, the request URL should look like this:
         "id": 3
     }
 ```
+## Additional resources
+
+* [Get all events](get-events.md)
+* [Get event by ID](get-event-by-id.md)
+* [Get event by user ID](get-event-by-user_id.md)
