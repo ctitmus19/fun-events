@@ -92,3 +92,8 @@ Open the Postman app on your desktop and complete the following steps:
   }
 ]
 ```
+
+## Additional resources
+
+* [User resources](user.md)
+* [Get events](get-events.md)

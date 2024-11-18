@@ -74,3 +74,8 @@ Open the Postman app on your desktop and complete the following steps:
     }
 ]
 ```
+## Additional resources
+
+* [Get all events](get-events.md)
+* [Get event by ID](get-event-by-id.md)
+* [Get event by date range](get-events-by-date-range.md)
