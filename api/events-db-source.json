@@ -84,20 +84,6 @@
     },
     {
       "id": 5
-    },
-    {
-      "user_id": 1,
-      "name": "The Nutcracker",
-      "url": "https://www.saltlakecountyarts.org/events/the-nutcracker-2/",
-      "description": "The Nutcracker Ballet performed in 2 acts with dancers from UDI who are between the ages of 2-18, along with dancers from the University of Utah.",
-      "start_date": "2024-11-21T19:00",
-      "end_date": "2024-11-23T19:00",
-      "address": "2525 Taylorsville Blvd",
-      "city": "Taylorsville",
-      "region": "Utah",
-      "country": "United States",
-      "price": 20,
-      "id": 6
     }
   ]
 }
