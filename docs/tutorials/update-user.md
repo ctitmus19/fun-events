@@ -51,7 +51,7 @@ Open the Postman app on your desktop and complete the following steps:
 ```
 ## Additional resources
 
-* [User resource](api/event.md)
+* [User resource](../api/event.md)
 * [Add user](add-user.md)
 * [Delete user](delete-user.md)
 
