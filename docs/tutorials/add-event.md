@@ -12,7 +12,7 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 **Time to complete:** 5 minutes
 
 ---
-## Add events in Postman
+## Add event in Postman
 
 Open the Postman app on your desktop and complete the following steps:
 
