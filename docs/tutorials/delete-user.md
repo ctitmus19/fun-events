@@ -5,7 +5,7 @@ layout: page
 # Delete user
 This tutorial describes how to delete an existing user in the Fun Events Service API. To delete a user, you first need to locate the user's ID number. The steps to complete this tutorial require using the Postman application.
 
-Before beginning the tutorial, make sure to [test your development system](../tutorials/getting-started.md).
+Before beginning the tutorial, make sure to [test your development system](getting-started.md).
 
 **Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 

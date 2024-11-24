@@ -8,8 +8,8 @@
     },
     {
       "last_name": "Jones",
-      "first_name": "Coraline",
-      "email": "c.jones@example.com",
+      "first_name": "Coraline Q.",
+      "email": "c.jones@mailtime.com",
       "id": 2
     },
     {
@@ -56,9 +56,9 @@
     },
     {
       "user_id": 3,
-      "name": "Spider-Man Concert",
+      "name": "Spider-Man in Concert",
       "url": "https://seattlesymphony.org/events/spider-man",
-      "description": "Listen to the Seattle Symphony perform soundtracks from the iconic spider-man films!",
+      "description": "Listen to the Seattle Symphony perform tracks from the iconic Spider-Man movies.",
       "start_date": "2025-03-30T19:00",
       "end_date": "2025-03-30T21:00",
       "address": "200 University St",

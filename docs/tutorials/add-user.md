@@ -5,7 +5,7 @@ layout: page
 # Add user
 This tutorial describes how to add a new user to the Fun Events Service API. In order to complete this tutorial, you need to use the Postman application.
 
-Before beginning the tutorial, make sure to [test your development system](../tutorials/getting-started.md).
+Before beginning the tutorial, make sure to [test your development system](getting-started.md).
 
 **Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
