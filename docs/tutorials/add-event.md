@@ -5,7 +5,7 @@ layout: page
 # Add event
 This tutorial describes how to add a new event to the Fun Events Service API. In order to complete this tutorial, you need to use the Postman application.
 
-Before beginning the tutorial, make sure to [test your development system](../tutorials/getting-started.md).
+Before beginning the tutorial, make sure to [test your development system](getting-started.md).
 
 **Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
@@ -58,6 +58,6 @@ Open the Postman app on your desktop and complete the following steps:
 ```
 ## Additional resources
 
-* [Event resource](api/event.md)
+* [Event resource](../api/event.md)
 * [Add user](add-user.md)
 * [Delete event](delete-event.md)

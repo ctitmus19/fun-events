@@ -37,6 +37,6 @@ Open the Postman app on your desktop and complete the following steps:
 ```
 ## Additional resources
 
-* [Event resource](api/event.md)
+* [Event resource](../api/event.md)
 * [Add event](add-event.md)
 * [Delete event](delete-event.md)
