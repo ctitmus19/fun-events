@@ -17,13 +17,18 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 Using your preferred command line tool, complete the following steps:
 
 1. Ensure that the fun-events JSON file is running in a command line tool
-2. In a separate command line tool, enter the following:
+2. Find the `user_id` of the user you want to update. Create a request in a separate command line tool with the following values:
+```shell
+curl {base_url}/users
+```
+2. In the response, locate the user
+3. Find the `id` parameter and copy the ID number
+4. In a separate command line tool, enter the following information with the `user_id` at the end:
 ```shell
 curl {base_url}/events?user_id=1
 ```
-3. Replace `1` with the ID number of the user whose events you want to retrieve
-4. Submit the command
-5. View the JSON response:
+5. Submit the command
+6. View the JSON response:
 ```shell
 [
   {
@@ -47,15 +52,23 @@ curl {base_url}/events?user_id=1
 
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. First, find the `user_id` of the user you want to update. Create a request in Postman with the following values:
+- **Method:** GET
+- **URL:** {base_url}/user
+- **Headers:**
+    - **Content-Type:** application/json
+
+2. Locate the user
+3. Find the `id` parameter and copy the ID number
+4. Create a new request with the following values, with the `user_id` included at the end of the URL:
+5. Create a new request with the following values:
 - **Method:** GET
 - **URL:** {base_url}/events?user_id=1
 - **Headers:**
   - Content-Type: application/json
  
-2. In the URL, replace `1` with the ID number of the user whose events you want to retrieve
-3. Select the **Send** button
-4. View the JSON response:
+6. Select the **Send** button
+7. View the JSON response:
 ```shell
 [
     {

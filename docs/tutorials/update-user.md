@@ -22,7 +22,7 @@ Open the Postman app on your desktop and complete the following steps:
 - **Headers:**
     - **Content-Type:** application/json
 
-2. Locate the event you want to update
+2. Locate the user you want to update
 3. Find the `id` parameter and copy the ID number
 4. Create a new request with the following values, with the `user_id` included at the end of the URL:
 - **Method:** PUT
