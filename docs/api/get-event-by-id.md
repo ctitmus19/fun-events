@@ -17,13 +17,12 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 Using your preferred command line tool, complete the following steps:
 
 1. Ensure that the fun-events JSON file is running in a command line tool
-2. In a separate command line tool, enter the following:
+2. In a separate command line tool, enter the following information with the last number being the `event-id` of the event you want to find:
 ```shell
 curl http://localhost:3000/events/1
 ```
-3. Replace `1` with the ID number of the event you want to find
-4. Submit the command
-5.  View the JSON response:
+3. Submit the command
+4.  View the JSON response:
 ```shell
 {
   "user_id": 1,
@@ -45,15 +44,14 @@ curl http://localhost:3000/events/1
 
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. Create a new request with the following values with the last number of the URL being the `event-id` of the event you want to find:
 - **Method:** GET
 - **URL:** {base_url}/events/1
 - **Headers:**
   - Content-Type: application/json
 
-2. Replace `1` with the ID number of the event you want to find
-3. Select the **Send** button 
-4.  View the JSON response:
+2. Select the **Send** button 
+3.  View the JSON response:
 ```shell
 {
     "user_id": 1,
