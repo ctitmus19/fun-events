@@ -68,6 +68,7 @@ Complete the following steps to test your development system:
     "id": 2
   },
         ...
+   ]    
     ```
 
 If the list of users does not display or you receive an error,
