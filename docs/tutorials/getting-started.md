@@ -80,4 +80,4 @@ If the list of users does not display or you receive an error,
 4. Verify that required software components are up to date.
 
 If you see the list of users from the service, you're ready to begin using the **Fun Events Service API**.
-View the [Tutorials](tutorials.md) for more possible actions you can try.
+View the [Tutorials](../tutorials/) for more possible actions you can try.
