@@ -28,7 +28,7 @@ Open the Postman app on your desktop and complete the following steps:
 - **Method:** PUT
 - **URL:** {base_url}/users/2
 - **Headers:**
-  - Content-Type: application/json
+    - **Content-Type:** application/json
 - **Request body:** Update the content below to match your event details:
 ```shell
  {
