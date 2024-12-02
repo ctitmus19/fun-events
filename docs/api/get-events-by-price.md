@@ -9,21 +9,28 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 
 **Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
-**Time to complete:** 5 minutes
+**Time to complete:** 10 minutes
 
+## Table of contents
+- [Get events with cURL commands](#curl)
+  - [Events less than specific price](#less-curl)
+  - [Events greater than specific price](#great-curl)
+- [Get events in Postman](#Postman)
+  - [Events less than specific price](#less-post)
+  - [Events greater than specific price](#great-post)
 ---
-## Get events with cURL commands
-### Events less than specific price
+## <a name="curl">Get events with cURL commands</a>
+### <a name="less-curl">Events less than specific price</a>
 Using your preferred command line tool, complete the following steps:
 
-1. Ensure that the fun-events JSON file is running in a command line tool
-2. In a separate command line tool, enter the following:
+1. Ensure that the fun-events JSON file is running in a command line tool.
+2. In a separate command line tool, enter the following but **do not submit the command**:
 ```shell
 curl "{base_url}/events?price_lte=15
 ```
-3. Update the price information to match your request. For example, if you want to display events with a price lower than $10, replace `price_lte=15` with `price_lte=10`
+3. Update the price information to match your request. For example, if you want to display events with a price lower than $10, replace `price_lte=15` with `price_lte=10`.
 
-4. Submit the command
+4. Submit the command.
 5. View the JSON response:
 ```shell
 [
@@ -57,17 +64,17 @@ curl "{base_url}/events?price_lte=15
   }
 ]
 ```
-### Events greater than specific price
+### <a name="great-curl">Events greater than specific price</a>
 Using your preferred command line tool, complete the following steps:
 
-1. Ensure that the fun-events JSON file is running in a command line tool
-2. In a separate command line tool, enter the following:
+1. Ensure that the fun-events JSON file is running in a command line tool.
+2. In a separate command line tool, enter the following but **do not submit the command**:
 ```shell
 curl "{base_url}/events?price_gte=25
 ```
-3. Update the price information to match your request. For example, if you want to display events with a price higher than $10, replace `price_gte=25` with `price_gte=10`
+3. Update the price information to match your request. For example, if you want to display events with a price higher than $10, replace `price_gte=25` with `price_gte=10`.
 
-4. Submit the command
+4. Submit the command.
 5. View the JSON response:
 ```shell
 [
@@ -102,21 +109,22 @@ curl "{base_url}/events?price_gte=25
 ]
 ```
 ---
-## Get events in Postman
-### Events less than specific price
+## <a name="Postman">Get events in Postman</a>
+### <a name="less-post">Events less than specific price</a>
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. Ensure that the fun-events JSON database is running in a command line tool.
+2. Create a new request with the following values, but **do not submit the request**:
 - **Method:** GET
 - **URL:** {base_url}/events?price_lte=15
 - **Headers:**
   - Content-Type: application/json
 
-2. Update the price information to match your request. For example, if you want to display events with a price lower than $10, replace `price_lte=15` with `price_lte=10`
+3. Update the price information to match your request. For example, if you want to display events with a price lower than $10, replace `price_lte=15` with `price_lte=10`.
 
-3. Select the **Send** button
+4. Select the **Send** button.
 
-4. View the JSON response:
+5. View the JSON response:
 ```shell
 [
   {
@@ -150,20 +158,21 @@ Open the Postman app on your desktop and complete the following steps:
 ]
 ```
 
-### Events greater than specific price
+### <a name="great-post">Events greater than specific price</a>
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. Ensure that the fun-events JSON database is running in a command line tool
+2. Create a new request with the following values but **do not submit the request**:
 - **Method:** GET
 - **URL:** {base_url}/events?price_gte=25
 - **Headers:**
   - Content-Type: application/json
 
-2. Update the price information to match your request. For example, if you want to display events with a price greater than $10, replace `price_gte=25` with `price_gte=10`
+3. Update the price information to match your request. For example, if you want to display events with a price greater than $10, replace `price_gte=25` with `price_gte=10`.
 
-3. Select the **Send** button
+4. Select the **Send** button
 
-4. View the JSON response:
+5. View the JSON response:
 ```shell
 [
   {

@@ -53,7 +53,7 @@ Complete the following steps to test your development system:
 
 3. If the service is running correctly, you should see a list of users from the service, such as in this example:
 
-    ```js
+```shell
     [
         {
     "last_name": "Button",
@@ -61,15 +61,15 @@ Complete the following steps to test your development system:
     "email": "b.button@example.com",
     "id": 1
   },
-  {
+        {
     "last_name": "Jones",
     "first_name": "Coraline",
     "email": "c.jones@example.com",
     "id": 2
-  },
+        },
         ...
    ]    
-    ```
+```
 
 If the list of users does not display or you receive an error,
  investigate and correct the error before continuing.
@@ -81,4 +81,4 @@ If the list of users does not display or you receive an error,
 4. Verify that required software components are up to date.
 
 If you see the list of users from the service, you're ready to begin using the **Fun Events Service API**.
-View the [Tutorials]([../tutorials/](https://ctitmus19.github.io/fun-events/#tutorials) for more possible actions you can try.
+View the [Tutorials](https://ctitmus19.github.io/fun-events/#tutorials) for more possible actions you can try.
