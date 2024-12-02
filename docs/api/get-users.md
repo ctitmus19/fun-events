@@ -11,8 +11,12 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 
 **Time to complete:** 5 minutes
 
+## Table of contents
+- [Get users with cURL commands](#curl)
+- [Get users in Postman](#Postman)
+
 ---
-## Get users with cURL commands
+## <a name="curl">Get users with cURL commands</a>
 
 Using your preferred command line tool, complete the following steps:
 
@@ -21,7 +25,7 @@ Using your preferred command line tool, complete the following steps:
 ```shell
 curl {base_url}/users
 ```
-3. Submit the command
+3. Submit the command.
 4. View the JSON response:
 ```shell
 [
@@ -52,18 +56,19 @@ curl {base_url}/users
 ]
 ```
 ---
-## Get users in Postman
+## <a name="Postman">Get events in Postman</a>
 
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. Ensure that the fun-events JSON file is running in a command line tool.
+2. Create a new request with the following values:
 - **Method:** GET
 - **URL:** {base_url}/users
 - **Headers:**
-  - Content-Type: application/json
+  - **Content-Type:** application/json
  
-2. Select the **Send** button
-3. View the JSON response:
+3. Select the **Send** button.
+4. View the JSON response:
 ```shell
 [
   {

@@ -16,22 +16,23 @@ Before beginning the tutorial, make sure to [test your development system](getti
 
 Open the Postman app on your desktop and complete the following steps:
 
-1. First, find the `user_id` of the user you want to delete. Create a request in Postman with the following values:
+1. Ensure that the fun-events JSON file is running in a command line tool.
+2. Find the `user_id` of the user you want to delete. Create a request in Postman with the following values:
 - **Method:** GET
 - **URL:** {base_url}/users
 - **Headers:**
     - **Content-Type:** application/json
 
-2. Locate the user you want to delete
-3. Find the `id` parameter and copy the ID number
-4. Create a new request with the following values, with the `user_id` included at the end of the URL :
+3. Locate the user you want to delete
+4. Find the `id` parameter and copy the ID number
+5. Create a new request with the following values, with the `user_id` included at the end of the URL :
 - **Method:** DELETE
 - **URL:** {base_url}/users/5
 - **Headers:**
     - **Content-Type:** application/json
 
-5. Select the **Send** button 
-6.  View the JSON response:
+6. Select the **Send** button 
+7.  View the JSON response:
 ```shell
 {}
 ```

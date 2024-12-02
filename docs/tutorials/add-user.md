@@ -16,7 +16,8 @@ Before beginning the tutorial, make sure to [test your development system](getti
 
 Open the Postman app on your desktop and complete the following steps:
 
-1. Create a new request with the following values:
+1. Ensure that the fun-events JSON file is running in a command line tool.
+2. Create a new request with the following values:
 - **Method:** POST
 - **URL:** {base_url}/users
 - **Headers:**
@@ -30,8 +31,8 @@ Open the Postman app on your desktop and complete the following steps:
   }
 ```
 
-2. Select the **Send** button 
-3.  View the JSON response:
+3. Select the **Send** button 
+4.  View the JSON response:
 ```shell
 {
     "last_name": "Fletcher",
