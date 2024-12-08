@@ -39,5 +39,5 @@ Sample `user` resource
 ## Additional information
 
 * [Get all users](get-users.md)
-* [Add user](tutorials/add-user.md)
-* [Update user](tutorials/update-user.md)
+* [Add user](../tutorials/add-user.md)
+* [Update user](../tutorials/update-user.md)
