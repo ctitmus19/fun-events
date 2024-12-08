@@ -10,6 +10,7 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 **Note:** Typically, the `{base_url}` used in commands is `http://localhost:3000`.
 
 **Time to complete:** 10 minutes
+
 ---
 ## Get events with cURL commands
 ## Events less than specific price
@@ -56,7 +57,7 @@ curl "{base_url}/events?price_lte=15
   }
 ]
 ```
----
+
 ## Events greater than specific price
 Using your preferred command line tool, complete the following steps:
 
@@ -101,7 +102,7 @@ curl "{base_url}/events?price_gte=25
   }
 ]
 ```
----
+
 ## Get events in Postman
 ## Events less than specific price
 Open the Postman app on your desktop and complete the following steps:
@@ -150,7 +151,7 @@ Open the Postman app on your desktop and complete the following steps:
   }
 ]
 ```
----
+
 ## Events greater than specific price
 Open the Postman app on your desktop and complete the following steps:
 
