@@ -14,6 +14,7 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 ## Table of contents
 - [Get events with cURL commands](#curl)
 - [Get events in Postman](#Postman)
+
 ---
 ## <a name="curl">Get events with cURL commands</a>
 
@@ -52,12 +53,12 @@ Open the Postman app on your desktop and complete the following steps:
 - **Method:** GET
 - **URL:** {base_url}/events/1
 - **Headers:**
-  - Content-Type: application/json
+  - **Content-Type:** application/json
 
 3. Select the **Send** button.
 4.  View the JSON response:
 ```shell
-{
+  {
     "user_id": 1,
     "name": "Albuquerque Film Festival",
     "url": "https://abq-film/festival",
@@ -70,7 +71,7 @@ Open the Postman app on your desktop and complete the following steps:
     "country": "United States",
     "price": 30,
     "id": 1
-}
+  }
 ```
 ## Additional resources
 
