@@ -12,15 +12,15 @@ Before beginning the tutorial, make sure to [test your development system](../tu
 **Time to complete:** 10 minutes
 
 ## Table of contents
-- [Get events with cURL commands](#curl)
+- Get events with cURL commands
   - [Events less than specific price](#less-curl)
   - [Events greater than specific price](#great-curl)
-- [Get events in Postman](#Postman)
+- Get events in Postman
   - [Events less than specific price](#less-post)
   - [Events greater than specific price](#great-post)
 ---
-## <a name="curl">Get events with cURL commands</a>
-### <a name="less-curl">Events less than specific price</a>
+## Get events with cURL commands
+## <a name="less-curl">Events less than specific price</a>
 Using your preferred command line tool, complete the following steps:
 
 1. Ensure that the fun-events JSON file is running in a command line tool.
@@ -65,7 +65,7 @@ curl "{base_url}/events?price_lte=15
 ]
 ```
 ---
-### <a name="great-curl">Events greater than specific price</a>
+## <a name="great-curl">Events greater than specific price</a>
 Using your preferred command line tool, complete the following steps:
 
 1. Ensure that the fun-events JSON file is running in a command line tool.
@@ -110,8 +110,8 @@ curl "{base_url}/events?price_gte=25
 ]
 ```
 ---
-## <a name="Postman">Get events in Postman</a>
-### <a name="less-post">Events less than specific price</a>
+## Get events in Postman
+## <a name="less-post">Events less than specific price</a>
 Open the Postman app on your desktop and complete the following steps:
 
 1. Ensure that the fun-events JSON database is running in a command line tool.
@@ -159,7 +159,7 @@ Open the Postman app on your desktop and complete the following steps:
 ]
 ```
 ---
-### <a name="great-post">Events greater than specific price</a>
+## <a name="great-post">Events greater than specific price</a>
 Open the Postman app on your desktop and complete the following steps:
 
 1. Ensure that the fun-events JSON database is running in a command line tool
