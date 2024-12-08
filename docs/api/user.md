@@ -21,7 +21,7 @@ Sample `user` resource
 
 ```js
 
- {
+   {
       "last_name": "Jones",
       "first_name": "Coraline",
       "email": "c.jones@example.com",
@@ -39,4 +39,5 @@ Sample `user` resource
 ## Additional information
 
 * [Get all users](get-users.md)
-* [Get user by ID](get-user-by-id.md)
+* [Add user](add-user.md)
+* [Update user](update-user.md)

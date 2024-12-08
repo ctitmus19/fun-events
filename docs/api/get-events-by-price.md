@@ -20,7 +20,6 @@ Before beginning the tutorial, make sure to [test your development system](../tu
   - [Events greater than specific price](#great-post)
 ---
 ## <a name="curl">Get events with cURL commands</a>
----
 ### <a name="less-curl">Events less than specific price</a>
 Using your preferred command line tool, complete the following steps:
 
@@ -112,7 +111,6 @@ curl "{base_url}/events?price_gte=25
 ```
 ---
 ## <a name="Postman">Get events in Postman</a>
----
 ### <a name="less-post">Events less than specific price</a>
 Open the Postman app on your desktop and complete the following steps:
 
